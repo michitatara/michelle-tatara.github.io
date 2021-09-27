@@ -26,6 +26,7 @@
         // Show the current tab, and add an "active" class to the button that opened the tab
         document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";
+        document.getElementById("tablinks").onclick();
       }
     </script>
   </head>
@@ -49,6 +50,7 @@
 
         <!-- Tab content -->
         <div id="My Resume" class="tabcontent">
+          <a href="https://michitatara.github.io/" onclick="myresume"></a></p>
         </div>
 
         <div id="Weather App" class="tabcontent">
@@ -59,15 +61,15 @@
 
       <!-- ************ PROJECTS / PORTFOLIO  ************** -->
       <section class="projects">
-        <div class="content-wrap">
+        <div class="content-wrap divider">
           <h2>Featured Projects</h2>
           <p>View selected projects below.Section in progress. More information can be found at <a href="https://michitatara.github.io/">My Personal Website</a>.</p>
 
           <!-- Project 1 -->
           <section>
             <section class="project-item">
+              <img src="https://sm.pcmag.com/t/pcmag_uk/review/l/linkedin-l/linkedin-learning_puzv.1920.jpg" alt="Lynda & LinkedIn Learning course picture">
             <h3>Lynda / LinkedIn Learning Courses</h3>
-            <img src="https://sm.pcmag.com/t/pcmag_uk/review/l/linkedin-l/linkedin-learning_puzv.1920.jpg" alt="Lynda & LinkedIn Learning course picture">
             <p>I attended Linkedin Learning courses as part of my course. Some examples: </p>
             <a class="btn" href="https://www.linkedin.com/learning/css-essential-training-3" target="_blank">CSS Essential Training</a>
             <a class="btn" href="https://www.linkedin.com/learning/html-essential-training-4">HTML Essential Training</a>
@@ -76,8 +78,8 @@
           <!-- Project 2 -->
           <section>
             <section class="project-item">
+              <img src="https://media.idownloadblog.com/wp-content/uploads/2014/04/iOS-7-Weather-app-top-main-view.gif" alt="Projected Weather App">
             <h3>Weather App in progress</h3>
-            <img src="https://media.idownloadblog.com/wp-content/uploads/2014/04/iOS-7-Weather-app-top-main-view.gif" alt="Projected Weather App">
             <p>I am building a Weather App right now as part of class assignment. I am following a youtube tutorial to do it.</p>
             <a class="btn" href="https://michitatara.github.io/" target="_blank">Check out the skeleton of the page.</a>
           </section>
@@ -85,15 +87,18 @@
 
       <!-- ****************  WORK EXPERIENCE  ******************** -->
       <section class="work-experience">
-        <div class="content-wrap">
+        <div class="content-wrap item-details divider">
           <h2>Work Experience</h2>
           <p>See my complete work history on <a href="https://www.linkedin.com/in/michelle-huang-tatara/">LinkedIn</a>.</p>
 
           <!-- Job 1 -->
-          <section>
+          <section class="job-item">
+            <div class="job-details">
             <h3>Summer Technical Analyst/ Software Engineering Intern</h3>
             <p>Credit Suisse</p>
             <p>June 2021-August 2021</p>
+            </div>
+            <div class="job-summary">
             <p>Key Contributions:</p>
             <ul>
               <li>Worked on the Data Analysis team. Worked on improving the semantic search engine using Machine Learning.
@@ -103,13 +108,17 @@
               <li>Completed API queries using MYSQL and Impala to return </li>
               <li><a href="https://www.credit-suisse.com/us/en.html">Credit Suisse Website</a></li>
             </ul>
+            </div>
           </section>
 
           <!-- Job 2 -->
-          <section>
+          <section class="job-item">
+            <div class="job-details">
             <h3>Software Engineering Intern</h3>
             <p>Bloomberg L.P</p>
             <p>January 2020</p>
+            </div>
+            <div class="job-summary">
             <p>Key contributions:</p>
             <ul>
               <li>Engineered the front end for a Discussion Board using REACT/JSON/JS for Bloomberg’s
@@ -120,6 +129,7 @@
                 methods for UI & design.</li>
               <li><a href="https://www.bloomberg.com/company/">Bloomberg L.P Website</a></li>
             </ul>
+            </div>
           </section>
         </div>
       </section>
@@ -150,7 +160,7 @@
           <h2>Let's Keep in Touch!</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
-          <ul>
+          <ul class="contact-list">
             <li><a href="mailto:email@example.com">michelletatara@gmail.com</a></li>
             <li><a href="https://michitatara.github.io/" target="_blank">Check out my github here!</a></li>
             <!--<li><a href="http://twitter.com/christinatruong" target="_blank">Twitter</a></li>-->
@@ -161,4 +171,3 @@
     </main>
   </body>
 </html>
-
