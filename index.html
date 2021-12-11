@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michelle Tatara,Queens College Student + Aspiring Full Stack Engineer</title>
     <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styleresume.css">
+    <link rel="stylesheet" href="stylegithub.css">
 
 </head>
 <body>
@@ -18,13 +18,20 @@
 
             <p>I am a current senior at Queens College, and I am focusing in on my last year of my studies at school. When
                 I graduate, I am planning to work at Credit Suisse as a Technical Analyst.
-                <a href="/michitatara.github.io/" target="_blank">My Personal Website</a></p>
+                <a href="https://michitatara.github.io/" target="_blank">My Personal Website</a></p>
         </div>
         <div class="tab">
-            <button class="tablinks"><a href="/michitatara.github.io">My Resume</a></button>
-            <button class="tablinks"> <a href ="/indexweatherapp.html">Weather App </a> </button>
+            <button class="tablinks"><a href="/indexgithub.html"></a>My Resume</button>
+            <button class="tablinks" onclick="openmypg(event, 'Weather App')"> <a href ="/indexweathergithub.html">Weather App </a> </button>
+        </div>
+        <div id="My Resume" class="tabcontent">
+            <a href="https://michitatara.github.io/" onclick="myresume"></a></p>
         </div>
 
+        <div id="Weather App" class="tabcontent">
+            <h3>Concerning Weather App...</h3>
+            <p>Dev work in progress!</p>
+        </div>
     </header>
 
     <!-- ************ PROJECTS / PORTFOLIO  ************** -->
@@ -33,31 +40,91 @@
             <h2>Featured Projects</h2>
             <p>View selected projects below.Section in progress. More information can be found at <a href="https://michitatara.github.io/">My Personal Website</a>.</p>
 
-               <section class="project-item">
-                        <img src="https://i1.wp.com/softwareengineeringdaily.com/wp-content/uploads/2019/12/freecodecamp-vector-logo.png?resize=730%2C389&ssl=1" alt="freeCodeCamp">
-                        <h3>Basic Node JS from FreeCodeCamp</h3>
-                        <p>I finished the following certificates from freeCodeCamp:"Back End Development and APIs" & "Basic Node and Express" </p>
-                        <a class="btn" href="https://boilerplate-express--michelletatara.repl.co/" target="_blank">Click here to see the NodeJS.</a>
-                    </section>
-            
-            <!-- Project 1 -->
             <section>
+                <h3>Lynda / LinkedIn Courses</h3>
+                    <!-- Project 1 -->
                 <section class="project-item">
-                    <img src="https://sm.pcmag.com/t/pcmag_uk/review/l/linkedin-l/linkedin-learning_puzv.1920.jpg" alt="Lynda & LinkedIn Learning course picture">
-                    <h3>Lynda / LinkedIn Learning Courses</h3>
-                    <p>I attended Linkedin Learning courses as part of my course. Some examples: </p>
-                    <a class="btn" href="https://www.linkedin.com/learning/css-essential-training-3" target="_blank">CSS Essential Training</a>
-                    <a class="btn" href="https://www.linkedin.com/learning/html-essential-training-4">HTML Essential Training</a>
+                    <img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15493/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png" alt="freeCodeCamp">
+                    <h3>LinkedIn Learning: Databases for Node.js Developers</h3>
+                    <p>I finished the certification for LinkedIn Learning called Databases for Node.js Developers.For the source code, please navigate to the master branch to view it.</p>
+                    <a class="btn" href="" target="_blank">Website in progress!</a>
+                    <a class="btn" href="https://github.com/michitatara/Express-NodeJS-Proj/tree/master" target="_blank">Click here to view the src code.</a>
+                </section>
+                    <!--Project 2-->
+                    <section class="project-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="freeCodeCamp">
+                        <h3>LinkedIn Learning: Building a Website with Node.js and Express.js</h3>
+                        <p>I finished the certification for LinkedIn Learning called Building a Website with Node.js and Express.js.</p>
+                        <a class="btn" href="https://Express-NodeJS-Proj.michelletatara.repl.co" target="_blank">Click here to see the NodeJS site.</a>
+                        <a class="btn" href="https://github.com/michitatara/Express-NodeJS-Proj" target="_blank">Click here to view the src code.</a>
+                    </section>
+
+                    <section class="project-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="Lynda & LinkedIn Learning course picture">
+                        <h3>LinkedIn Learning: Javascript Essential Training</h3>
+                        <p>I finished the certification for LinkedIn Learning called Javascript Essential Training. </p>
+                        <a class="btn" href="https://michitatara.github.io/javascript-trainingll.io/" target="_blank">Click here to see the static site.</a>
+                        <a class="btn" href="https://github.com/michitatara/javascript-trainingll.io">CLick here to view the src code.</a>
+
+                    </section>
+
+                <h3>Free Code Camp</h3>
+
+                    <section class="project-item">
+                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Wfr_ufX1--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/inolj9lqevg8wybds3gh.png" alt="Projected Weather App">
+                        <h3>Mongo DB & Mongoose</h3>
+                        <p>I finished the certification for Free Code Camp for MongoDB & Mongoose. Please choose master branch when viewing src code.</p>
+                        <a class="btn" href="https://boilerplate-express--michelletatara.repl.co/" target="_blank">Click here to view the site.</a>
+                        <a class="btn" href="https://github.com/michitatara/Express-NodeJS-Proj/tree/master" target="_blank">Click here to view the src code.</a>
+                    </section>
+
+                <section class="project-item">
+                    <img src="https://media.istockphoto.com/vectors/timestamp-icon-monochrome-style-design-from-crypto-currency-icon-ui-vector-id1023692488?k=20&m=1023692488&s=170667a&w=0&h=bgVPplf_KO9g9p7em994HElD0CwWeDIH7x09F038c2Q=" alt="Projected Weather App">
+                    <h3>Timestamp Microservice</h3>
+                    <p>I finished the certification for Free Code Camp for the Timestamp Microservice App</p>
+                    <a class="btn" href="https://timestamp-microservice-ccamp.michelletatara.repl.co/" target="_blank">Click here to view the site.</a>
+                    <a class="btn" href="https://replit.com/@MichelleTatara/Timestamp-Microservice-CCamp#.replit" target="_blank">Click here to view the src code.</a>
                 </section>
 
-                <!-- Project 2 -->
-                <section>
-                    <section class="project-item">
+                <section class="project-item">
+                    <img src="https://st.depositphotos.com/1006472/1487/i/600/depositphotos_14873915-stock-photo-question-marks.jpg" alt="Projected Weather App">
+                    <h3>Request Header Parser Microservice</h3>
+                    <p>I finished the certification for Free Code Camp for the Request Header Parser Microservice App</p>
+                    <a class="btn" href="https://boilerplate-project-headerparser-1.michelletatara.repl.co" target="_blank">Click here to view the site.</a>
+                    <a class="btn" href="https://replit.com/@MichelleTatara/boilerplate-project-headerparser-1#package.json" target="_blank">Click here to view the src code.</a>
+                </section>
+
+                <section class="project-item">
+                    <img src="https://st.depositphotos.com/1007752/4996/i/600/depositphotos_49965697-stock-photo-cursor-pointing-at-http-www.jpg" alt="Projected Weather App">
+                    <h3>URL Shortener Microservice</h3>
+                    <p>I finished the certification for Free Code Camp for the URL Shortener Microservice</p>
+                    <a class="btn" href="https://urlshortener-project.michelletatara.repl.co" target="_blank">Click here to view the site.</a>
+                    <a class="btn" href="https://replit.com/@MichelleTatara/urlshortener-project#server.js" target="_blank">Click here to view the src code.</a>
+                </section>
+
+                <section class="project-item">
+                    <img src="https://media.idownloadblog.com/wp-content/uploads/2014/04/iOS-7-Weather-app-top-main-view.gif" alt="Projected Weather App">
+                    <h3>Exercise Tracker</h3>
+                    <p>I finished the certification for Free Code Camp for the Exercise Tracker</p>
+                    <a class="btn" href="https://boilerplate-project-exercisetracker-1.michelletatara.repl.co" target="_blank">Click here to view the site.</a>
+                    <a class="btn" href="https://replit.com/@MichelleTatara/boilerplate-project-exercisetracker-1#package.json" target="_blank">Click here to view the src code.</a>
+                </section>
+
+                <section class="project-item">
+                    <img src="https://media.idownloadblog.com/wp-content/uploads/2014/04/iOS-7-Weather-app-top-main-view.gif" alt="Projected Weather App">
+                    <h3>File Metadata Microservice</h3>
+                    <p>I finished the certification for Free Code Camp for the File Metadata Microservice</p>
+                    <a class="btn" href="https://boilerplate-project-filemetadata.michelletatara.repl.co/" target="_blank">Click here to view the site.</a>
+                    <a class="btn" href="https://replit.com/@MichelleTatara/boilerplate-project-filemetadata#.replit" target="_blank">Click here to view the src code.</a>
+                </section>
+
+                <section class="project-item">
                         <img src="https://media.idownloadblog.com/wp-content/uploads/2014/04/iOS-7-Weather-app-top-main-view.gif" alt="Projected Weather App">
-                        <h3>Weather App in progress</h3>
                         <p>I am building a Weather App right now as part of class assignment. I am following a youtube tutorial to do it.</p>
-                        <a class="btn" href="/indexweatherapp.html" target="_blank">Check out the weatherapp!</a>
+                        <a class="btn" href="michitatara.github.io/indexweatherapp.html" target="_blank">Check out the weather app.</a>
+                        <a class="btn" href="https://github.com/michitatara/weatherapp.github.io" target="blank">Check out the src code.</a>
                     </section>
+                </section>
 
 
                     <!-- ****************  WORK EXPERIENCE  ******************** -->
